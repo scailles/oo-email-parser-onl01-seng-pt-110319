@@ -8,3 +8,6 @@ class EmailAddressParser
   
   
   EMAILS=[]
+  
+  def self.parse
+    
