@@ -8,14 +8,14 @@ class EmailAddressParser
   
   attr_accessor :email
   
-  EMAILS=[]
-  
   def initialize(email_address)
    @email=email_address
  end
  
  def self.parse
    @email.chomp
+ @email.uniq
+ end
  
  
  end
