@@ -6,8 +6,15 @@
 
 class EmailAddressParser
   
+  attr_accessor :email
   
   EMAILS=[]
   
-  def self.parse
+  def initialize(email_address)
+   @email=email_address
+   if !(EMAILS.include?(email_address))
+     EMAILS << email_address
+   end
+ end
+    
     
