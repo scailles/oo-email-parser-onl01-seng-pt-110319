@@ -12,11 +12,7 @@ class EmailAddressParser
    @email=emails
  end
  
- def self.parse
-   array=[]
-   email.chomp
- email.uniq.split(", ")
- end
+
  
  
  end
