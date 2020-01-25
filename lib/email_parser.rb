@@ -12,10 +12,9 @@ class EmailAddressParser
   
   def initialize(email_address)
    @email=email_address
-
  end
  
- 
+ def self.parser
  
  
  end
