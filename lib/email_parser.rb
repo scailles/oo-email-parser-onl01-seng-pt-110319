@@ -13,8 +13,8 @@ class EmailAddressParser
  end
  
  def self.parse
-   @email.chomp
- @email.uniq
+   email.chomp
+ email.uniq
  end
  
  
