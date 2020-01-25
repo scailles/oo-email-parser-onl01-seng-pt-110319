@@ -14,7 +14,8 @@ class EmailAddressParser
    @email=email_address
  end
  
- def self.parser
+ def self.parse
+   @email.chomp
  
  
  end
