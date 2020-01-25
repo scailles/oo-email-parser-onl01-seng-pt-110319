@@ -14,7 +14,7 @@ class EmailAddressParser
  
  def self.parse
    email.chomp
- email.uniq
+ email.uniq.split(", ")
  end
  
  
